@@ -13,7 +13,7 @@ def reset():
 
 
 for i in range(n * 2 + 1):
-    if i == (n * 2) / 2:
+    if i == n:
         a.append(1)
     else:
         a.append(0)
